@@ -1,0 +1,112 @@
+.azeret-mono-font {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px auto;
+  }
+  .Awlad{ font-size: 28px;}
+  .Download{
+    width: 158px ;
+    height: 37px;
+    border-radius: 8px;
+    padding: 11px 15px 11px 15px;
+    border-color: rgb(13, 19, 33);
+     background-color: white;
+  }
+    /* developersection */
+.developerdetails{
+    text-align: center;
+    padding: 26px 244px 21px;
+}
+  .developer{
+    background-image: url("../assets/Hero-bg.png");
+    width: 1440px;
+    margin: 0 auto;
+  }
+  .developer p{
+    font-size: 10px;
+    font-weight: 400;
+    color:rgb(13, 19, 33) ;
+  }
+  .developer h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .developer button {
+    background-color: black;
+    color:rgb(255, 255, 255);
+    height: 42px;
+    width: 120px;
+    padding: 10px 12px 10px 12px ;
+    font-size: 13px;
+    border-radius: 8px;
+  }
+  /* Why Web Development?? */
+  .whyweb{
+    text-align: center;
+  }
+  .whyweb p {
+    color: rgb(13, 19, 33) ;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  /* secondpart */
+  .layerone{
+    display: flex;
+    justify-content: space-around;   
+  }
+  .layertwo{
+    display: flex;
+    justify-content: space-around;
+  }
+  .layerthree{
+    display: flex;
+    justify-content: space-around;
+  }
+  .web h1 {
+color: rgba(13, 19, 33, 0.7);
+font-size: 18px;
+font-weight: bold ;
+  }
+  .web p{
+    color: rgb(13, 19, 33);
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .web button{
+    background-color: white;
+    padding: 7px 30px 7px 13px;
+    border: 1px solid rgb(13, 19, 33);  
+  }
+  .website {
+width: 946px;
+margin: 0 auto;
+padding: 80px 97px 80px 97px;
+  }
+  .web{
+    /* padding: 50px; */
+    margin: 32px 0;
+  }
+  /* inspiration section  */
+  .inspiration{
+    width: 1075px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .inspiration h2{
+   color:  rgb(13, 19, 33);
+   font-size: 20px;
+   font-weight: bold;
+  }
+  .inspiration p{
+    color:rgb(13, 19, 33);
+    font-size: 10px;
+    font-weight: 400;
+    padding-bottom: 30px;
+  }
+   /* target section */
+   
