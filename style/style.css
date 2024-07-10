@@ -44,6 +44,7 @@
     padding: 10px 12px 10px 12px ;
     font-size: 13px;
     border-radius: 8px;
+    cursor: pointer;
   }
   /* Why Web Development?? */
   .whyweb{
@@ -57,15 +58,25 @@
   /* secondpart */
   .layerone{
     display: flex;
-    justify-content: space-around;   
+    justify-content: space-around;  
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 20px;
   }
   .layertwo{
     display: flex;
     justify-content: space-around;
+    border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+padding: 48px;
+margin-bottom: 20px;
   }
   .layerthree{
     display: flex;
     justify-content: space-around;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 20px;
   }
   .web h1 {
 color: rgba(13, 19, 33, 0.7);
@@ -80,12 +91,16 @@ font-weight: bold ;
   .web button{
     background-color: white;
     padding: 7px 30px 7px 13px;
-    border: 1px solid rgb(13, 19, 33);  
+    border: 1px solid rgb(13, 19, 33);
+    cursor: pointer; 
   }
   .website {
 width: 946px;
 margin: 0 auto;
-padding: 80px 97px 80px 97px;
+padding: 55px 65px 55px 65px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
+margin-top: 50px;
   }
   .web{
     /* padding: 50px; */
@@ -108,11 +123,14 @@ padding: 80px 97px 80px 97px;
     font-weight: 400;
     padding-bottom: 30px;
   }
-  /* #iframe{ */
+  #iframe{
+    border: 5px solid whitesmoke;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
     
-
-
-  
+  }
+    
    /* target section */
    
 
@@ -169,6 +187,7 @@ padding: 80px 97px 80px 97px;
     border: none;
     background: none;
     text-decoration: underline;
+    cursor: pointer;
 }
 /* my next target */
 .nexttarget {
@@ -223,6 +242,7 @@ font-weight: 400;
     border: none;
     background: none;
     text-decoration: underline;
+    cursor: pointer;
 }
 .nexttargetskill p {
 color: rgb(13, 19, 33);
@@ -250,11 +270,15 @@ font-weight: bold
     justify-content:space-around;
     margin:50px 180px ;   
 }
+.textsubmit ::placeholder{
+    padding: 20px;
+}
 .textsubmit button{
     border: none;
     border-radius: 8px;
     padding: 11px 13px 11px 13px;
     margin-right:150px ;
+    cursor: pointer;
 }
 .supportsection{
     background-image: url("../assets/handshake.jpg");
