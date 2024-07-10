@@ -108,5 +108,190 @@ padding: 80px 97px 80px 97px;
     font-weight: 400;
     padding-bottom: 30px;
   }
+  /* #iframe{ */
+    
+
+
+  
    /* target section */
    
+
+   .target{
+    text-align: center;
+    padding-top: 100px;
+   }
+   .target p {
+    font-size:10px ;
+    color:rgb(13, 19, 33) ;
+    font-weight: 400;
+    
+   }
+   .target h2{
+    font-size: 20px; ;
+    font-weight: bold;
+   }
+   .targetskill{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    width: 1140px;
+    margin: 0 auto;
+   }
+
+   .html{
+    border-radius: 10px;
+    background: rgba(255, 76, 30, 0.05);
+    width: 230px;
+    height: 195px;
+    padding: 40px;
+   }
+   .css{
+    width: 230px;
+    height: 195px;
+    padding: 40px;
+    border-radius: 10px;
+    background: rgba(0, 76, 232, 0.05);  
+   }
+   .js{
+    width: 230px;
+    height: 195px;
+    padding: 40px;
+    border-radius: 10px;
+    background: rgba(255, 223, 0, 0.05);
+   }
+   .targetskill p {
+   color: rgb(13, 19, 33);
+   font-size: 10px;
+   font-weight: 400;
+   text-align: left;
+   }
+.targetskill button{
+    border: none;
+    background: none;
+    text-decoration: underline;
+}
+/* my next target */
+.nexttarget {
+text-align: center;
+padding-top: 100px;
+}
+.nexttarget p {
+color: rgb(13, 19, 33);
+font-size: 12px;
+font-weight: 400;
+}
+/* next target skill */
+.react{
+    display: flex;
+    justify-content: space-around;
+    width: 1140px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    gap: 20px;
+}
+.node{
+    display: flex;
+    justify-content: space-around;
+    width: 1140px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.mongo{
+    display: flex;
+    justify-content: space-around;
+    width: 1140px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.nexttargetskill{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.nexttargetskill button{
+    border: none;
+    background: none;
+    text-decoration: underline;
+}
+.nexttargetskill p {
+color: rgb(13, 19, 33);
+font-size: 12px;
+font-weight: 400;
+}
+.nexttargetskill h4 {
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: bold
+}
+/* !-- i need support --> */
+.support{
+    width: 350px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+     border-radius: 8px;
+     background: rgb(255, 255, 255);
+     margin-left: 200px;
+     
+}
+.textsubmit{
+    display: flex;
+    justify-content:space-around;
+    margin:50px 180px ;   
+}
+.textsubmit button{
+    border: none;
+    border-radius: 8px;
+    padding: 11px 13px 11px 13px;
+    margin-right:150px ;
+}
+.supportsection{
+    background-image: url("../assets/handshake.jpg");
+    background-color : rgba(0, 0, 0, 0.2)   ;
+    background-blend-mode: overlay;
+    background-size: cover;
+    border-radius: 16px;
+    width: 1140px;
+    height: 320px;
+    margin: 0 auto;
+    background-position: center;
+    text-align: center ; 
+}
+.supportsection h2  {
+    text-align: center ; 
+    padding-top: 70px;
+    color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: bold;
+}
+.supportsection p{
+color: rgb(255, 255, 255);
+font-size: 10px;
+font-weight: 400;
+}
+
+      /* footer */
+      .footer{
+        display: flex;
+        justify-content: space-between;
+        width: 1140px;
+        margin: 0 auto;
+        margin-top: 50px;
+        border-radius: 16px;
+         background: rgba(13, 19, 33, 0.03);
+      }
+      .footer h2 {
+        font-size: 13px ;
+        font-weight: 600;
+      }
